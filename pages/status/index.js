@@ -41,7 +41,7 @@ function Dependencies({ isLoading, data }) {
       <h2>Banco de Dados</h2>
       <ul>
         <li>Número máximo de conexões: {database.max_connections}</li>
-        <li>Conexões em uso: {database.used_connections}</li>
+        <li>Conexões em uso: {database.used_connections} </li>
         <li>Versão: {database.version}</li>
       </ul>
     </div>
